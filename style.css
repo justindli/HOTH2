@@ -1,0 +1,8 @@
+#header, #body {
+	font:"Times New Roman";
+	text-align: center;
+	color: white;
+}
+#whole {
+	background: royalblue;
+}
