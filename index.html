@@ -16,11 +16,17 @@
 				<input type="text" name="expression">
 				<input type="button" value="Submit" onclick="compute()">
 
-				<table>
+				<table align = "center">
 				<td><input type=button value="u" onclick="expression.value+=Math.floor(Math.random()*42)"></td>
 				<td><input type=button value="C" onclick="expression.value=''"></td>
 				<td><input type=button value="/" onclick="expression.value+='/'"></td>
 				<td><input type=button value="&pi;" onclick="expression.value+=3.1416"></td>
+
+				<tr>
+				<td><input type=button value="+" onclick="expression.value+='+'"></td>
+				<td><input type=button value="-" onclick="expression.value+='-'"></td>
+				<td><input type=button value="X" onclick="expression.value+='*'"></td>
+				</tr>
 
 				<tr>
 				<td><input type=button value="0" onclick="expression.value+='0'"></td>
