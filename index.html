@@ -1,11 +1,11 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Calculator</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script type="text/javascript" src="computation.js"></script>
 	</head>
-	<body>
-	<center>
+	<body id = "whole">
 		<div id="header">
 			<h1>Calculator</h1>
 			<h2>Enter a valid expression</h2>
@@ -14,10 +14,7 @@
 			<p id="answer"></p>
 			<form name="expression">
 				<input type="text" name="expression">
-
-				<tr>
 				<input type="button" value="Submit" onclick="compute()">
-				</tr>
 
 				<table>
 				<td><input type=button value="u" onclick="expression.value+=Math.floor(Math.random()*42)"></td>
@@ -50,6 +47,5 @@
 
 			</form>
 		</div>
-	</center>
 	</body>
 </html>
